@@ -1,0 +1,9 @@
+IDE
+VSCODE 1.94.2
+IntelliJ 2024.1.4
+
+MYSQL 8
+NGINX 1.27.2
+JAVA 17
+Python 3.10.10
+

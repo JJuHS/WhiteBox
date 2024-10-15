@@ -1,0 +1,6 @@
+도커 컴포즈를 통한 파일 실행 후 컨테이너 기반 애플리케이션 서비스 제공
+nginx는 루트 폴더에서 conf 폴더 만들고 안에 nginx.conf 파일 삽입
+
+AI 서버는 로컬 서버에서 실행
+Ngrok을 통해 서버 터널링 
+Backend 폴더 안 Spring 서비스 안 application.properties에 fastapi.server.url= {제공 받은 ngrok ip 기입}
