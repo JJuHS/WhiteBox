@@ -1,0 +1,42 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top:72px;
+}
+
+.nav-bar {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 72px;
+    position:fixed;
+    z-index:99;
+    backdrop-filter: blur(16px);
+    width: 100%;
+}
+
+.menu-button {
+    width : 137px;
+    height : 50px;
+    border-radius: 10px;
+    margin-left : 25px;
+    margin-top : 20px;
+    margin-bottom : 20px;
+}
+
+.footer {
+    width : 100%;
+    background-color: #74C69D;
+    text-align: center;
+    color:white;
+    padding:1rem;
+}
+
+#logo {
+    cursor: pointer;
+}
+
+.rotate-icon {
+    display: inline-block;
+    transform: rotate(90deg);
+    margin-left: 8px; 
+}

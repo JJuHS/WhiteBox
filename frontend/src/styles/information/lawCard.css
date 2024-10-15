@@ -1,0 +1,15 @@
+#after-btn:hover, #before-btn:hover {
+    cursor: pointer;
+}
+/* 상 우 하 좌 */
+#item-title {
+    margin: 5px 0px 5px 5px;
+}
+
+#item-content {
+    margin: 5px 5px 5px 5px;
+}
+
+.table-content {
+    white-space: pre-line; 
+}

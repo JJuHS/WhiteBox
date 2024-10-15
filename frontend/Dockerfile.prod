@@ -1,0 +1,22 @@
+
+FROM node:20.15.0-alpine as builder
+
+WORKDIR /app
+COPY package.json .
+RUN npm install --force
+COPY . .
+RUN npm run build
+
+# 실행 스테이지 - 변경
+FROM node:20.15.0-alpine
+
+WORKDIR /app
+COPY --from=builder /app/build ./build
+COPY --from=builder /app/package.json .
+RUN npm install --production --force
+
+# 정적 파일을 서빙할 간단한 서버 설치
+RUN npm install -g serve
+
+EXPOSE 3000
+CMD ["serve", "-s", "build", "-l", "3000"]

@@ -1,0 +1,24 @@
+.community-notice {
+    width: 100%;
+}
+
+.community-tab-active {
+    width: 120px;
+    background-color: #B5D2FC;
+    border-top: 0.5px solid black;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+}
+
+.community-tab-deactive {
+    width: 120px;
+    border-top: 0.5px solid black;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+}
+
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -1,0 +1,16 @@
+#info-sidebar {
+    margin-top:20px;
+    height:100vh;
+    border-right:1px solid black;
+    
+    cursor:pointer;
+}
+
+#sidebar-items {
+    margin:10px 0px 0px 0px;
+}
+
+#sidebar-item:hover {
+    border-radius:5px;
+    background-color:lightgray;
+}

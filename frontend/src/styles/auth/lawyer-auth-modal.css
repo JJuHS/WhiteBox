@@ -1,0 +1,9 @@
+.lawyer-auth-modal button {
+    width: 112px;
+    height: 43px;
+    background-color: rgba(69, 142, 247, 0.5); 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}

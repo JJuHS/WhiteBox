@@ -1,0 +1,7 @@
+.truncate-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 2줄까지만 보이게 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

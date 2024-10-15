@@ -1,0 +1,4 @@
+/* tailwindCSS 초기 설정 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

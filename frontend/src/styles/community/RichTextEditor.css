@@ -1,0 +1,19 @@
+.editor-container {
+  border: 1px solid #ddd;
+  padding: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.toolbar {
+  margin-bottom: 16px;
+}
+
+.toolbar button {
+  margin-right: 8px;
+}
+
+.editor {
+  border: 1px solid #ddd;
+  min-height: 300px;
+}

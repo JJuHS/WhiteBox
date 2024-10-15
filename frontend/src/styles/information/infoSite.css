@@ -1,0 +1,33 @@
+.site-card {
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.site-card-title {
+    font-weight: 600;
+}
+
+.site-card-link:hover {
+    background-color: lightgrey;
+}
+
+.site-card-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height:3em;
+    line-height: 1.5em;
+}
+
+.site-tooltip {
+    max-width: 400px;
+    word-wrap: break-word;
+    padding: 10px;
+    font-size: 0.75rem;
+}
